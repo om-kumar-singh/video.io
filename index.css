@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2a2a;
+    color: white;
+}
+
+
+main {
+    padding: 1rem;
+}
+
+.videos-section {
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.video-item {
+    margin: 1rem;
+    max-width: 320px;
+    border: 1px solid #ccc;
+    color: white;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
